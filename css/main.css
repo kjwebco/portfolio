@@ -17,9 +17,9 @@ padding: 20px 15px;
 #logo {
   text-align: center;
     display: inline-block;
-    width: 60px;
+    /* width: 60px;
     height: 60px;
-    background-color: #30395C;
+    background-color: #30395C; */
 }
 .logo{
   margin: 4px auto;
