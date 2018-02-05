@@ -15,10 +15,14 @@ padding: 20px 15px;
 }
 
 #logo {
+  text-align: center;
     display: inline-block;
     width: 60px;
     height: 60px;
     background-color: #30395C;
+}
+.logo{
+  margin: 4px auto;
 }
 #top-nav{
     float: right;
@@ -70,7 +74,7 @@ html{
     
   }
   .center{
-      margin-top: 175px;
+      margin: 100px 0 200px 0;
     text-align: center;
   }
 
@@ -88,8 +92,8 @@ html{
   h3{
     font-family: 'Cinzel', serif;
     font-size: 20px;
-    padding: 30px;
-    margin: 70px 0;
+    padding: 20px;
+    margin: 10px 0 200px 0;
     text-align: center;
     font-weight: 400;
     /* text-decoration-line: underline; */
@@ -130,4 +134,19 @@ html{
   height: 250px;
   line-height: 250px;
   margin:20px;
+  overflow: hidden;
+  
+}
+
+.work .box .hoverBox{ 
+background: rgba(48, 57, 92, 0.7);
+position: relative;
+left:-100%;
+height: 100%;
+position: 100%;
+transition: all .7s ease
+}
+
+.work .box:hover .hoverBox{
+left: 0;
 }
