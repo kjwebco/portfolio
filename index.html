@@ -12,15 +12,18 @@
     <link href="https://fonts.googleapis.com/css?family=Spectral+SC:300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+    
 </head>
+
 <body>
+    
     <header>
         <div id="logo">
         <img class="logo" src="img/logowhitesmall.png" style="width: 60px">
         </div>
 
         <nav id="top-nav">
-        <a href="about.html">About</a>
+        <a href="#about">About</a>
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
         </nav>
@@ -34,54 +37,100 @@
     </div>
     
     
-<h3>   
+<h4>   
   <span class="underline"><span
      class="txt-rotate"
      data-period="2000"
      data-rotate='[ "A web developer.", "A web designer.", "A full-stack developer."]'></span></span>
-</h3>
-<div class="container">
-<div class="work">
-    <div class="box" style=' background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
-    background-size: cover;'>
-        <div class="hoverBox";>
+</h4>
 
+
+<div class="work">
+    <div class="box" style='background: url(https://hackatic.com/wp-content/uploads/2017/04/web-design-woodland-park_zxthcq.jpg) no-repeat center center; 
+    background-size: cover;'>
+        <div class="hoverBox">
+            <h3> Website Design</h3>
+            <h5> Web Applications </h5>
         </div>
 
     </div> 
 
-    <div class="box" style=' background: url(http://www.gmswebdesign.co.uk/img/services/custom-development.jpg) no-repeat center center; 
+    <div class="box" style='background: url(http://www.gmswebdesign.co.uk/img/services/custom-development.jpg) no-repeat center center; 
     background-size: cover;'>
+        <div class="hoverBox">
+            <h3> Website Design</h3>
+            <h5> UI/UX </h5>
+        </div>
         
     </div>
-    <div class="box" style=' background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
+    <div class="box" style='background: url(https://thumbs.dreamstime.com/b/mobile-app-development-creative-process-visualization-flat-d-web-isometric-concept-vector-template-cranes-placing-building-blocks-71812216.jpg) no-repeat center center; 
     background-size: cover;'>
+        <div class="hoverBox">
+            <h3> Mobile Application</h3>
+            <h5> Responsive Web App </h5>
+        </div>
         
     </div>
-    <div class="box" style=' background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
+    <div class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
     background-size: cover;'>
+        <div class="hoverBox">
+            <h3> Project 1</h3>
+            <h5> Web Design </h5>
+        </div>
 
     </div> 
-    <div class="box" style=' background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
+    <div class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
     background-size: cover;'>
+        <div class="hoverBox">
+            <h3> Project 1</h3>
+            <h5> Web Design </h5>
+        </div>
         
     </div>
-    <div class="box">
-        
+    <div class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
+    background-size: cover;'>
+        <div class="hoverBox">
+            <h3> Project 1</h3>
+            <h5> Web Design </h5>
+        </div>  
     </div>
-    <div class="box">
 
-    </div> 
-    <div class="box">
-        
-    </div>
-    <div class="box">
-        
-    </div>
 </div>
-</div>
+
+
+<!-- <div class="modal-cantainer">
+    <div class="modal">
+            <img src="http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg">
+    </div>
+</div> -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    // $('body').css('background', '#fff');
+    
+    $(".box").click(function(){
+    $(".modal-container").addClass("active");
+    });
+
+    $(".modal").click(function(){
+    $(".modal-container").removeClass("active");
+    });
+});
+
+</script>
 
 <script type="text/javascript" src="js/main.js"></script>
+
+<div id="about">
+
+    <div class="main-header" "about">
+        <h1>About Me</h1>
+    </div>
+
+</div>
 
 
 </body>
