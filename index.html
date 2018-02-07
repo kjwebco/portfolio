@@ -18,15 +18,69 @@
 <body>
     
     <header>
-        <div id="logo">
+            
+                    <div class="logo-area">
+                        <img src="img/logowhitesmall.png" style="width: 60px">
+                    </div>
+                    <div class="menu">
+                        <ul>
+                          <li>
+                            <a href="about.html">
+                            About
+                            </a>
+                          </li>
+                          <li>
+                            <a href="home.html">
+                            Home
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="icon-links">
+                        <ul class="quick-options">
+                          <li>
+                            <a href="cloe.html">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="home.html">
+                            <i class="fa fa-comments" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="home.html">
+                            <i class="fa fa-bell" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                        </ul>
+                        <div class="privacy">
+                          <i class="fa fa-lock" aria-hidden="true"></i>
+                        </div>
+                    </div> -->
+                    <!-- <div class="search-area">
+                        <ul>
+                          <li>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                          </li>
+                          <li>
+                            <input type="text">
+                          </li>
+                          <li>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                          </li>
+                        </ul>
+                    </div> -->
+                
+        <!-- <div id="logo">
         <img class="logo" src="img/logowhitesmall.png" style="width: 60px">
         </div>
 
         <nav id="top-nav">
-        <a href="#about">About</a>
-        <a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
-        </nav>
+            <a href="#about">About</a>
+            <a href="work.html">Work</a>
+            <a href="contact.html">Contact</a>
+        </nav> -->
     </header>
 
     <div class="center">
@@ -46,24 +100,26 @@
 
 
 <div class="work">
-    <div class="box" style='background: url(https://hackatic.com/wp-content/uploads/2017/04/web-design-woodland-park_zxthcq.jpg) no-repeat center center; 
+    <a href="app.html">
+    <div id="myImg" class="box" style='background: url(https://hackatic.com/wp-content/uploads/2017/04/web-design-woodland-park_zxthcq.jpg) no-repeat center center; 
     background-size: cover;'>
         <div class="hoverBox">
-            <h3> Website Design</h3>
+            <h3> Web Development</h3>
             <h5> Web Applications </h5>
         </div>
+    </div>
+    </a>
 
-    </div> 
-
-    <div class="box" style='background: url(http://www.gmswebdesign.co.uk/img/services/custom-development.jpg) no-repeat center center; 
+    <div id="myImg" class="box" style='background: url(http://www.gmswebdesign.co.uk/img/services/custom-development.jpg) no-repeat center center; 
     background-size: cover;'>
         <div class="hoverBox">
             <h3> Website Design</h3>
             <h5> UI/UX </h5>
         </div>
-        
+    
     </div>
-    <div class="box" style='background: url(https://thumbs.dreamstime.com/b/mobile-app-development-creative-process-visualization-flat-d-web-isometric-concept-vector-template-cranes-placing-building-blocks-71812216.jpg) no-repeat center center; 
+
+    <div id="myImg" class="box" style='background: url(https://thumbs.dreamstime.com/b/mobile-app-development-creative-process-visualization-flat-d-web-isometric-concept-vector-template-cranes-placing-building-blocks-71812216.jpg) no-repeat center center; 
     background-size: cover;'>
         <div class="hoverBox">
             <h3> Mobile Application</h3>
@@ -71,7 +127,8 @@
         </div>
         
     </div>
-    <div class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
+
+    <div id="myImg" class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
     background-size: cover;'>
         <div class="hoverBox">
             <h3> Project 1</h3>
@@ -79,7 +136,8 @@
         </div>
 
     </div> 
-    <div class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
+
+    <div id="myImg" class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
     background-size: cover;'>
         <div class="hoverBox">
             <h3> Project 1</h3>
@@ -87,7 +145,8 @@
         </div>
         
     </div>
-    <div class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
+
+    <div id="myImg" class="box" style='background: url(http://www.danschmid.com/wp-content/uploads/2017/01/benefits-of-ecommerce-web-development.jpg) no-repeat center center; 
     background-size: cover;'>
         <div class="hoverBox">
             <h3> Project 1</h3>
@@ -108,17 +167,47 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-    $(document).ready(function(){
-    // $('body').css('background', '#fff');
+//     $(document).ready(function(){
+//     // $('body').css('background', '#fff');
     
-    $(".box").click(function(){
-    $(".modal-container").addClass("active");
-    });
+//     $(".box").click(function(){
+//     $(".modal-container").addClass("active");
+//     });
 
-    $(".modal").click(function(){
-    $(".modal-container").removeClass("active");
-    });
-});
+//     $(".modal").click(function(){
+//     $(".modal-container").removeClass("active");
+//     });
+// });
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    // modalImg.src = this.src;
+    
+}
+
+
+
+// Get the <span> element that closes the modal
+        // var span = document.getElementsByClassName("close");
+
+// When the user clicks on <span> (x), close the modal
+// span.onclick = function() { 
+//   modal.style.display = "none";
+// }
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 </script>
 
