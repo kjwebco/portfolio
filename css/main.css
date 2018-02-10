@@ -415,7 +415,7 @@ overflow: auto;
   }
 #content-area2 .description .webimage{
   margin-top: 10px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 
 }
 #content-area2 .left{
@@ -439,7 +439,9 @@ justify-content: center; /* align horizontal */
 #content-area2 .right .description{
   text-align: center;
 }
-
+.aston{
+  margin-top: 75px;
+}
 #about{
   /* margin-top: 50px; */
   width: 80%;
