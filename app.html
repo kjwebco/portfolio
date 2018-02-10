@@ -5,27 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kevin Jendreas - Web Developer</title>
-
+    <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href = "css/reset.css">
     <link rel="stylesheet" type="text/css" href = "css/main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Spectral+SC:300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+    
     
 </head>
 
 <body>
     
     <header>
-            <div class="menu-area">
+            <div class="logo-area">
                     <img src="img/logowhitesmall.png" style="width: 60px; color: grey">
                 </div>
                 <div class="menu">
                     <ul>
                         <li>
-                        <a href="about.html">
-                        About
+                        <a href="index.html">
+                        Home
                         </a>
                         </li>
                         <li>
@@ -41,17 +43,53 @@
                     </ul>
                 </div>
     </header>
+    
 
-<section id="content-area">
+<div id="content-area">
     <div class="left">
-
+        <a href="https://spoofeescraper.herokuapp.com/" target="_blank"><img src="img/scraper.png" style="width: 350px"></a>
     </div>
 
     <div class="right">
-
+        <div class="description">
+        <p><strong>Mongo Scraper</strong> will scrape spoofee.com website for special discount deals. The date that is retrieved will be latest deals and includes a link to the deal. Cheerio grabs the site content and Mongoose is used to save it to your MongoDB database. Users can select and save any deals they wish to have saved for later.<br><br> 
+        Some technologies included express, mongoose, body-parser, and cheerio.</p>
+        </div>
     </div>
 
-</section>
+    <div class="left">
+        <a href="https://kjwebco.github.io/80s-trivia-game/" target="_blank"><img src="img/totally80.png" style="width: 350px"></a>
+    </div>
 
-<div class="footer">Designed by Kevin Jendres &copy; 2018</div>
-    </body>
+    <div class="right">
+        <div class="description">
+        <p><strong>Totally Trivial Trivia</strong> is a game that shows only one question until the player answers it or their time runs out. If the player selects the correct answer, it will show a screen congratulating them for choosing the right option. If the player runs out of time, it will tell the player that time's up and display the correct answer. If the player chooses the wrong answer, the player will be told they selected the wrong option and then display the correct answer. 
+            The final screen will show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+            
+            <br><br>Some technologies included JavaScript for the logic and jQuery to manipulate HTML.</p>
+        </div>
+    </div>
+
+    <div class="left">
+        <a href="https://github.com/kjwebco/Bamazon" target="_blank"><img src="img/bamazon.gif" style="width: 300px"></a>
+    </div>
+
+    <div class="right">
+        <div class="description">
+        <p><strong>Bamazon</strong> is an Amazon-like storefront with the MySQL skills learned in class. The app takes in orders from customers and depletes stock from the store's inventory.
+            <br><br>Some technologies included Node, MySQL and Inquirer.
+            
+            GitHub link</p>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    
+        <img class="signature" src="img/signature.png" style="width: 100px">
+        <p class="copy">Designed by Kevin Jendreas &copy; 2018</p>
+      </footer>
+
+</body>
+</html>
