@@ -22,7 +22,7 @@ body {
 
 
 header{
-  /* background: #335486; */
+  /* background: #fdfdfd; */
   padding: 15px;
 }
 header a{
@@ -69,6 +69,14 @@ header .menu ul li a{
 }
 header .menu ul li a:hover{
   color: rgb(95, 153, 207);
+}
+header .menu ul li a .webmenu{
+  color:black;
+}
+header .menu ul li a .webmenu:hover{
+  color: rgb(95, 153, 207);
+
+  
 }
 /* header .icon-links{
   display:inline-block;
@@ -380,6 +388,7 @@ overflow: auto;
 
 /* web section */
 #content-area2{
+  margin-top: 70px;
   width:100%;
   height:100%;
   overflow: auto;
@@ -450,7 +459,7 @@ justify-content: center; /* align horizontal */
   height: 25px;
   background: rgb(0, 0, 0);
   display: block;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   left: 0 ; right: 0; bottom: 0; 
   width: 100%;
   /* color:grey; */
@@ -476,9 +485,10 @@ justify-content: center; /* align horizontal */
   margin-bottom: 50px; */
 }
 
-.icon{
-  display: block;
-  margin-bottom: 20px;
+.icon .image{
+  margin: 20px;
+  /* display: block; */
+  
 }
 
 
